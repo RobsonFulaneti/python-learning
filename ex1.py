@@ -5,3 +5,6 @@ c = 0
 print(a + b)
 
 print("minamino")
+
+printa(a + c)
+
