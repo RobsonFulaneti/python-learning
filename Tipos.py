@@ -1,5 +1,0 @@
-n = input('Digite alguma coisa: ')
-print('o tipo primitivo é: ', type(n))
-print('é alfa numerico ? ', n.isalnum())
-print('é numero ? ', n.isnumeric())
-print('é alpha ? ', n.isalpha())
