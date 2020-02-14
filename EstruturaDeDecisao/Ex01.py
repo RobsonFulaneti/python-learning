@@ -6,3 +6,5 @@ elif numero2 > numero1:
     print("O segundo número é o maior")
 else:
     print("Os números são iguais")
+
+print("ex1")
