@@ -51,8 +51,9 @@ while opcao != 6:
             print(i, "com nota",j)
     if opcao == 5:
         print("=" * 68)
+        print("Os alunos cadastrados foram:", end=''"\n")
         for i in(alunos):
-            print("Os alunos cadastrados foram:",i)
+            print(i)
     if opcao == 6:
         break
     if opcao not in range(1, 7):
