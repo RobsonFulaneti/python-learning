@@ -37,22 +37,22 @@ while opcao != 6:
     if opcao == 2:
         print("=" * 68)
         print("Os alunos aprovados foram:", end=''"\n")
-        for i, j in (passaram):
+        for i, j in passaram:
             print(i, "com nota",j)
     if opcao == 3:
         print("=" * 68)
         print("Os alunos de recuperacao foram:", end=''"\n")
-        for i, j in(recuperacao):
+        for i, j in recuperacao:
             print(i, "com nota",j)
     if opcao == 4:
-        print("Os alunos reprovados foram:", end=''"\n")
         print("=" * 68)
-        for i, j in(reprovados):
+        print("Os alunos reprovados foram:", end=''"\n")
+        for i, j in reprovados:
             print(i, "com nota",j)
     if opcao == 5:
         print("=" * 68)
         print("Os alunos cadastrados foram:", end=''"\n")
-        for i in(alunos):
+        for i in alunos:
             print(i)
     if opcao == 6:
         break
