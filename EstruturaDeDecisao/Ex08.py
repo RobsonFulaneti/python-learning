@@ -2,7 +2,6 @@ alunos = []
 passaram = []
 recuperacao = []
 reprovados = []
-opcao = 0
 while opcao != 6:
     print("="*30, " MENU ", "="*30)
     print("[1] Para adicionar alunos\n"
