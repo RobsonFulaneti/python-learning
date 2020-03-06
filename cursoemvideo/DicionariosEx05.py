@@ -5,7 +5,6 @@ mediaIdade = 0
 idade = 0
 numeroPessoa = 0
 while True:
-
     pessoa = dict()
     pessoa['nome'] = str(input("Digite o nome da pessoa: "))
     numeroPessoa += 1
@@ -17,7 +16,6 @@ while True:
         print("\033[0;31mERRO Digite M para masculinho e F para feminino.\033[m")
 
     pessoa['idade'] = -1
-
     while pessoa['idade'] != str:
         try:
             pessoa['idade'] = int(input("Digite a idade: "))
