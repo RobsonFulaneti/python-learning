@@ -2,7 +2,6 @@ alunos = []
 passaram = []
 recuperacao = []
 reprovados = []
-opcao = 0
 while opcao != 6:
     print("="*30, " MENU ", "="*30)
     print("[1] Para adicionar alunos\n"
@@ -22,13 +21,13 @@ while opcao != 6:
             nota2 = float(input("Digite a segunda nota: "))
             media = (nota1 + nota2) / 2
             if media >= 7:
-                print(f"O {aluno} passou com media {media}!")
+                print(f"{aluno} passou com media {media}!")
                 passaram.append([aluno, media])
             elif media >= 3:
-                print(f"O {aluno} está de recuperação pois fechou com media {media}")
+                print(f"{aluno} está de recuperação pois fechou com media {media}")
                 recuperacao.append([aluno, media])
             else:
-                print(f"O {aluno} não passou pois fechou com media {media}")
+                print(f"{aluno} não passou pois fechou com media {media}")
                 reprovados.append([aluno, media])
             print("=" * 68)
             sair = str(input("Voltar ao menu principal ? S/N "))
