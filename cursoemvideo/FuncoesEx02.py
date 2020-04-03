@@ -5,5 +5,9 @@ def printaNome(nome):
     print('-' * len(nome) + '--')
 
 
-nomeDigitado = str(input("Digite seu nome: "))
-printaNome(nomeDigitado)
+while True:
+    nomeDigitado = str(input("Digite seu nome: "))
+    printaNome(nomeDigitado)
+    sair = str(input("Quer continuar ? S/N "))
+    if sair in 'Nn':
+        break
