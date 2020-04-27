@@ -9,7 +9,6 @@ def mostraLinha():
     print("=" * 68)
 
 
-
 def mostraMenu():
     print("="*30, " MENU ", "="*30)
     print("[1] Para adicionar alunos\n"

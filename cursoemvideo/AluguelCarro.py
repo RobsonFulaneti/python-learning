@@ -7,4 +7,4 @@ dias = int(input('Quantos dias você ficou com o carro ? '))
 km = float(input('Quantos Km você rodou com o carro ? '))
 preco = aluguelCarro(dias, km)
 
-print('O Total a pagar é de R${:.2f}'.format(preco))
+print(f'O Total a pagar é de R$:.2f, {preco}')
