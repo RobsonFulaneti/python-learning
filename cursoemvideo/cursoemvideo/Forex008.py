@@ -3,7 +3,7 @@ mediaidade = 0
 maioridadedehomem = 0
 nomevelho = ''
 menoridade = 0
-for p in range (1, 5):
+for p in range(1, 5):
     print("-------- {} PESSOA --------".format(p))
     nome = str(input("Digite o nome: "))
     sexo = str(input("Digite o sexo: ")).upper()
